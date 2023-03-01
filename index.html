@@ -1,0 +1,48 @@
+<!-- This is an HTML document -->
+<!DOCTYPE html>
+<html>
+  <head>
+      <title>Login</title>
+    <!-- This is a link to a CSS file that will style the document -->
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+
+  <body>
+    <ul class="ulitems">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="signUp.html">Sing Up</a></li>
+      <li><a href="Activities.html">Activities</a></li>
+    </ul>
+
+    <!-- This is a form that will allow the user to input a username and password -->
+    <form action="/login" method="post">
+      <div class="container">
+        <label><b>Username</b></label>
+        <!-- This is an input field for the username -->
+        <input type="text" placeholder="Enter Username" name="username" required>
+
+        <label><b>Password</b></label>
+        <!-- This is an input field for the password -->
+        <input type="password" placeholder="Enter Password" name="password" required>
+            
+        <!-- This is a button that the user can click to submit the form -->
+        <button type="submit">Login</button>
+      </div>
+
+      <!-- This script will execute when the form is submitted -->
+      <script>
+        // If the URL contains '#unauthorized', display an error message for an invalid username or password
+        if(document.location.hash === '#unauthorized') {
+          document.write('<div class="unauthorized">Invalid Username or Password</div>');
+        } 
+        // If the URL contains '#error', display a generic error message
+        else if(document.location.hash === '#error') {
+          document.write('<div class="error">An error has occured</div>');
+        }
+      </script>
+    </form>
+    <footer>
+      <p>&copy; 2023 My Website</p>
+    </footer>
+  </body>
+</html>

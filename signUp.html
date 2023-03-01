@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>SignUp</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <ul class="ulitems">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="signUp.html">Sing Up</a></li>
+        <li><a href="Activities.html">Activities</a></li>
+    </ul>
+
+  <form action="/signup" method="post">
+    <div class="container">
+      <h1>Sign Up</h1>
+      <hr>
+      
+      <label for="username"><b>Username</b></label>
+      <input type="text" placeholder="Enter Username" name="username" required>
+
+      <label for="password"><b>Password</b></label>
+      <input type="password" placeholder="Enter Password" name="password" required>
+      
+      <label for="confirm_password"><b>Confirm Password</b></label>
+      <input type="password" placeholder="Confirm Password" name="confirm_password" required>
+
+      <button type="submit" class="signupbtn">Sign Up</button>
+    </div>
+  </form>
+
+  <div class="container signin">
+    <p>Already have an account? <a href="/index.html">Sign in</a>.</p>
+  </div>
+  <footer>
+    <p>&copy; 2023 My Website</p>
+</footer>
+</body>
+</html>

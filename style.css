@@ -1,0 +1,280 @@
+form {
+	/* Add a border to the form */
+	border: 5px solid #f8e092;
+	width: 50%;
+	margin: auto;
+	position: relative;
+	top: 85px;
+	
+}
+  
+.container {
+	padding: 30px;
+	display: inline-block;
+	justify-content: center;
+	align-items: center;
+	height: 100%;
+}
+form input[type="text"]:hover,
+form input[type="password"]:hover,
+form button:hover {
+  border-color: rgb(38, 149, 198);
+  transform: scale(0.5);
+}
+
+  
+input[type=text], input[type=password] {
+	/* Make the input fields full-width and adjust the padding and margin */
+	width: 100%;
+	padding: 10px;
+	margin: 8px 0;
+	/* Add a border to the input fields */
+	border: 2px solid rgb(10, 9, 9);
+	/* Adjust the box-sizing property */
+	box-sizing: border-box;
+  }
+  
+  button {
+	/* Set the background color and font color of the button */
+	background-color: #dbfadc;
+	color: rgb(59, 47, 47);
+	/* Adjust the padding and margin of the button */
+	padding: 14px 20px;
+	margin: 8px 0;
+	/* Add a double border to the button */
+	border: 4px double;
+	/* Set the cursor to a pointer */
+	cursor: pointer;
+	/* Make the button full-width */
+	width: 100%;
+  }
+  
+  button:hover {
+	/* Add opacity to the button on hover */
+	opacity: 0.8;
+  }
+  
+  .cancelbtn {
+	/* Adjust the padding and background color of the cancel button */
+	padding: 10px 18px;
+	background-color: #f44336;
+	/* Keep the width of the button as auto */
+	width: auto;
+  }
+  
+  .imgcontainer {
+	/* Center align the image */
+	text-align: center;
+	/* Add margin to the top and bottom of the image container */
+	margin: 24px 0 12px 0;
+  }
+  
+  img.avatar {
+	/* Adjust the size and shape of the avatar image */
+	width: 40%;
+	border-radius: 50%;
+  }
+  
+  .container {
+	/* Add padding to the container */
+	padding: 30px;
+  }
+
+  .ulitems {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	float: right;
+  }
+  
+  .ulitems li {
+	float: left;
+  }
+  
+  .ulitems li a {
+	display: block;
+	color: rgb(5, 2, 48);
+	text-align: center;
+	padding: 16px;
+	text-decoration: none;
+  }
+  
+  .ulitems li a:hover {
+	background-color: #111;
+  }
+  
+  
+  span.psw {
+	/* Adjust the padding of the 'Forgot password' text */
+	float: right;
+	padding-top: 16px;
+  }
+  
+  .unauthorized {
+	/* Set the background color for unauthorized message */
+	background-color: rgb(240, 24, 35);
+  }
+  
+  .error {
+	/* Set the background color for error message */
+	background-color: rgb(248, 198, 198);
+  }
+  
+
+	 /* Activities */
+	 body {
+		font-family: Arial, Helvetica, sans-serif;
+		margin: 0;
+	}
+	
+	/* Navigation bar style */
+	ul.ulitems {
+		list-style-type: none;
+		margin: 0;
+		padding: 0;
+		overflow: hidden;
+		background-color: #333;
+		position: fixed;
+		top: 0;
+		width: 100%;
+	}
+	
+	/* Align the navigation items to the right */
+	ul.ulitems li {
+		float: right;
+	}
+	
+	/* Style the navigation links */
+	ul.ulitems li a {
+		display: block;
+		color: white;
+		text-align: center;
+		padding: 14px 16px;
+		text-decoration: none;
+	}
+	
+	/* Change the background color of the active link */
+	ul.ulitems li a.active {
+		background-color: #4CAF50;
+	}
+	
+	/* Change color on hover */
+	ul.ulitems li a:hover:not(.active) {
+		background-color: #111;
+	}
+	
+	/* Style for the signup form */
+	form {
+		border: 5px solid #f8e092;
+		margin: auto;
+		width: 50%;
+		padding: 20px;
+	}
+	
+	/* Input fields style */
+	input[type=text], input[type=password] {
+		width: 100%;
+		padding: 6px 10px;
+		margin: 8px 0;
+		display: inline-block;
+		border: 2px solid #ccc;
+		box-sizing: border-box;
+	}
+	
+	/* Increase input field border size on focus */
+	input[type=text]:focus, input[type=password]:focus {
+		border: 3px solid #555;
+	}
+	
+	/* Style the signup button */
+	button {
+		background-color: #dbfadc;
+		color: rgb(59, 47, 47);
+		padding: 14px 20px;
+		margin: 8px 0;
+		border: double;
+		cursor: pointer;
+		width: 100%;
+	}
+	
+	/* Change button color on hover */
+	button:hover {
+		opacity: 0.8;
+	}
+	
+	/* Style the cancel button */
+	.cancelbtn {
+		width: auto;
+		padding: 10px 18px;
+		background-color: #f44336;
+	}
+	
+	/* Center the avatar */
+	.imgcontainer {
+		text-align: center;
+		margin: 24px 0 12px 0;
+	}
+	
+	/* Avatar style */
+	img.avatar {
+		width: 40%;
+		border-radius: 50%;
+	}
+	
+	/* Style for the signup form container */
+	.container {
+		padding: 30px;
+	}
+	
+	/* Password field style */
+	span.psw {
+		float: right;
+		padding-top: 16px;
+	}
+	
+	/* Error message style */
+	.error {
+		background-color: rgb(248, 198, 198);
+	}
+	
+	/* Unauthorized message style */
+	.unauthorized {
+		background-color: rgb(240, 24, 35);
+	}
+	
+	/* Style for the activities container */
+	.activities-container {
+		width: 80%;
+		margin: auto;
+		padding: 20px;
+	}
+	
+	/* Style for the activities list */
+	.activities-container ul {
+		list-style: none;
+		margin: 0;
+		padding: 0;
+	}
+	
+	/* Style for the activity items */
+	.activities-container li {
+		margin-bottom: 20px;
+		border: 2px solid #ccc;
+		padding: 10px;
+	}
+
+	main{
+		position: relative;
+		top: 35px;
+		left: 25px;
+	}
+
+	footer{
+		background-color: #3f3e3e;
+		color: #ccc;
+		height: 55px;
+		position: relative;
+		top: 70px;
+	}
+	
